@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GifItem/> tests should match the snapshot 1`] = `
+<div
+  className="card"
+>
+  <img
+    alt="vinland"
+    src="https://media4.giphy.com/media/uRb9QFo9ZeMes/giphy.gif?cid=9ca20bfbfyjodd4oplg6io7oi0vj1gqzspmu8yyhx9a01xas&rid=giphy.gif&ct=g"
+  />
+  <p>
+    vinland
+  </p>
+</div>
+`;
+
+exports[`<GifItem/> tests should match the snapshot 2`] = `
+<div>
+  <div
+    class="card"
+  >
+    <img
+      alt="vinland"
+      src="https://media4.giphy.com/media/uRb9QFo9ZeMes/giphy.gif?cid=9ca20bfbfyjodd4oplg6io7oi0vj1gqzspmu8yyhx9a01xas&rid=giphy.gif&ct=g"
+    />
+    <p>
+      vinland
+    </p>
+  </div>
+</div>
+`;

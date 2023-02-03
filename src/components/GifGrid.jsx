@@ -1,5 +1,6 @@
 
 import useFetchGifs from '../hooks/useFetchGifs';
+import PropTypes from 'prop-types';
 import GifItem from './GifItem';
 import Spinner from './Spinner';
 
@@ -12,7 +13,7 @@ export const GifGrid = ({category}) => {
         <div>
             <h3> {category} </h3>
            
-           {isLoading && <Spinner/>}
+           {isLoading && <Spinner aria-label="spinner"/>}
            {!isLoading && 
             <div className='card-grid'>
                 {
@@ -25,4 +26,8 @@ export const GifGrid = ({category}) => {
     )
 };
 
+
+GifGrid.propTypes = {
+    category: PropTypes.string.isRequired
+}
 
